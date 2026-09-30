@@ -1,0 +1,15 @@
+# Python environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large input data
+data/raw/
+
+# Generated output data
+data/processed/
