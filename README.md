@@ -44,9 +44,9 @@ factors.
 Due to the size of the raster datasets, the complete input data are not
 included directly in this repository. They can be downloaded here:
 
-[Download the input data from HeiBOX] https://heibox.uni-heidelberg.de/d/ea671984d0b74e1cafa8/ 
+[Download the input data from HeiBOX](https://heibox.uni-heidelberg.de/d/ea671984d0b74e1cafa8/) 
 
-After downloading, place the input data in the data/raw/ directory. If the directory does not yet exist, create it first.
+After downloading, place the input data in the `data/raw/ directory`. If the directory does not yet exist, create it first.
 
 ### Project Structure
 
@@ -65,11 +65,10 @@ project/
 └── data/
     ├── raw/
     │   └── [input data]
-    ├── processed/
-    │   ├── landslide_ml.csv
-    │   └── landslide_susceptibility.tif
-    └── sample/
-        └── [sample data]
+    └── processed/
+        ├── landslide_ml.csv
+        └── landslide_susceptibility.tif
+       
 ```
 
 
